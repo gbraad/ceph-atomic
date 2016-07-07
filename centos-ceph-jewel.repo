@@ -1,0 +1,4 @@
+[centos-ceph-jewel]
+name=CentOS-7 - Ceph Jewel
+baseurl=http://buildlogs.centos.org/centos/7/storage/x86_64/ceph-jewel/
+gpgcheck=0
