@@ -1,8 +1,8 @@
 {
     "include": "centos-atomic-host.json",
-    "ref": "centos-atomic-host/7/x86_64/ceph-jewel",
+    "ref": "centos-atomic-host/7/x86_64/ceph-hammer",
     "automatic_version_prefix": "2016.0",
-    "repos": ["centos-ceph-jewel", "epel"],
+    "repos": ["centos-ceph-hammer", "epel"],
     "packages": [
         "ceph"
     ]
