@@ -1,9 +1,13 @@
 {
     "include": "centos-atomic-host.json",
-    "ref": "centos-atomic-host/7/x86_64/ceph-hammer",
+    "ref": "centos-atomic-host/7/x86_64/ceph-jewel",
     "automatic_version_prefix": "2016.0",
-    "repos": ["centos-ceph-hammer", "epel"],
+    "repos": ["centos-ceph-jewel", "epel"],
     "packages": [
-        "ceph"
+        "ceph",
+        "ntp",
+        "ntpdate",
+        "hdparm",
+        "autogen-libopts"
     ]
 }
